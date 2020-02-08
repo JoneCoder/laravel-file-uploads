@@ -8,7 +8,7 @@ This is demo project for file uploads in laravel project.
 <code>$ cd laravel-file-uploads/</code><br/>
 >Than copy the .env.example file to .env flowing command:<br/>
 <code>$ cp .env.example .env</code></br>
->Now update composer for install laravel vendor:
+>Now update composer for install laravel vendor:<br/>
 <code>$ composer update</code><br/>
 >If composer updating done than you generate application key for this command:<br/>
 <code>$ php artisan key:generate</code><br/>
