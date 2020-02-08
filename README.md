@@ -1,7 +1,7 @@
 # laravel-file-uploads.
 This is demo project for file uploads in laravel project.
 <img src="public/assets/images/preview.gif" alt="preview.gif" /><br>
-#laravel-file-uploads installation.
+# laravel-file-uploads installation.
 >First clone this repository for command:<br/>
 <code>$ git clone https://github.com/JoneCoder/laravel-file-uploads.git</code><br/>
 >Second change the directory this command:<br/>
