@@ -23,7 +23,7 @@
         <div class="body" id="drop">
             <i class="fa fa-file-text-o pointer-none" aria-hidden="true"></i>
             <p class="pointer-none"><b>Drag and drop</b> files here <br /> or <a href="" id="triggerFile">browse</a> to begin the upload</p>
-            <input type="file" multiple="multiple" />
+            <input type="file" id="file" multiple="multiple" />
         </div>
         <footer>
             <div class="divider">
