@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-    <meta charset="UTF-8">
     <title>Laravel-file-Upload CSS Animation UI</title>
+    <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300'>
@@ -23,7 +24,7 @@
         <div class="body" id="drop">
             <i class="fa fa-file-text-o pointer-none" aria-hidden="true"></i>
             <p class="pointer-none"><b>Drag and drop</b> files here <br /> or <a href="" id="triggerFile">browse</a> to begin the upload</p>
-            <input type="file" id="file" multiple="multiple" />
+            <input type="file" multiple="multiple" />
         </div>
         <footer>
             <div class="divider">
@@ -32,7 +33,7 @@
             <div class="list-files">
                 <!--   template   -->
             </div>
-            <button class="importar">UPDATE FILES</button>
+            <button class="importar">MORE UPLOADS</button>
         </footer>
     </div>
 </div>

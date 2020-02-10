@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'uses' => 'FileUploadController@index',
+    'as'   => 'index'
+]);
+
+Route::post('/', [
+    'uses' => 'FileUploadController@store',
+    'as'   => 'file'
+]);
