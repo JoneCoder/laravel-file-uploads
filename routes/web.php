@@ -16,7 +16,7 @@ Route::get('/', [
     'as'   => 'index'
 ]);
 
-Route::post('/', [
+Route::post('/file', [
     'uses' => 'FileUploadController@store',
     'as'   => 'file'
 ]);

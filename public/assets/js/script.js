@@ -31,21 +31,6 @@ App.init = function () {
     }, 1000);
 
     Object.keys(files).forEach(file => {
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-
-        $.ajax({
-            type:'POST',
-            url:'/',
-            data: {file: files},
-            success: function (data) {
-                alert(success(data));
-            }
-        });
-
         let load = 2000 + file * 2000; // fake load
         setTimeout(() => {
             $(`.file--${file}`).querySelector(".progress").classList.remove("active");

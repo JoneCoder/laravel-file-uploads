@@ -38,7 +38,7 @@
     </div>
 </div>
 <!-- partial -->
+<script  src="{{ asset('assets/js/jquery.js') }}"></script>
 <script  src="{{ asset('assets/js/script.js') }}"></script>
-
 </body>
 </html>
